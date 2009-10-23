@@ -14,9 +14,11 @@ class IndexController extends Zend_Controller_Action
         $this->view->var = "Test's & Test";
 
         $navigation = array(
-                            array("href" => "http://framework.zend.com", "caption" => "Zend Framework"),
-                            array("href" => "http://www.zend.com", "caption" => "Zend")
-                            );
+            array("href" => "http://framework.zend.com",
+                  "caption" => "Zend Framework"),
+            array("href" => "http://www.zend.com",
+                  "caption" => "Zend")
+        );
 
 
         $this->view->navigation = $navigation;
